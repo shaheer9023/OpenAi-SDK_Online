@@ -2,7 +2,7 @@ from agents import Agent,Runner,OpenAIChatCompletionsModel,AsyncOpenAI,set_traci
 import os
 import asyncio
 set_tracing_disabled(disabled=True)
-os.environ["GEMNI_API_KEY"] ="MY API KEY"
+os.environ["GEMNI_API_KEY"] = 
 key = os.environ["GEMNI_API_KEY"]
 
 client=AsyncOpenAI(
